@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- site image -->
+    <link rel="icon" href="images/rock.png" />
+
+    <!-- title -->
+    <title>The Rock, The Paper, The Scissors</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1>The Rock, The Paper, The Scissors</h1>
+
+      <div class="game-info">
+        <p>You picked: <span id="player-move"></span></p>
+        <p>Computer picked: <span id="computer-move"></span></p>
+        <p>Result: <span id="game-result"></span></p>
+      </div>
+    </header>
+
+    <main>
+      <div class="moves">
+        <div class="choice" id="rock">
+          <p>"The Rock"</p>
+        </div>
+        <div class="choice" id="paper">
+          <p>"The Paper"</p>
+        </div>
+        <div class="choice" id="scissors">
+          <p>"The Scissors"</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="game-score">
+        <p>Wins: <span id="win-counter"></span></p>
+        <p>Lose: <span id="lose-counter"></span></p>
+        <p>Draws: <span id="draw-counter"></span></p>
+      </div>
+
+      <div class="socials">
+        <a href="https://github.com/kurtbrio" target="_blank">
+          <img src="images/github.png" alt="github" />
+          <p>Github</p>
+        </a>
+        <a href="https://twitter.com/kurtbrio" target="_blank">
+          <img src="images/twitter.png" alt="twitter" />
+          <p>Twitter</p>
+        </a>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
